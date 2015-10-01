@@ -15,6 +15,9 @@ It reqires the following modules
 You can get them using Pip
 >Install Pip using command "python get-pip.py"
 
+The get-pip.py can be found at
+>https://bootstrap.pypa.io/get-pip.py
+
 Then to install module use command
 >pip install requests
 
