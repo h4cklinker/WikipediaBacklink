@@ -8,7 +8,9 @@ It reqires the following modules
 >re
 >BeautifulSoup
 >json
+
 You can get them using Pip
 >Install Pip using command "python get-pip"
+
 Then to install module use command
 >pip install requests
