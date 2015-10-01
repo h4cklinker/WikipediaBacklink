@@ -200,6 +200,7 @@ else:
 	start = PopUrl.find('/wiki/') 
 	Chkurl = PopUrl[start:]
 	soup = BeautifulSoup(data)
+	print "The most popluar links are can be accesed using the following words"
 	for a in soup.findAll('a', href=Chkurl):
 		print(a.string)
 
