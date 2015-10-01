@@ -13,7 +13,13 @@ It reqires the following modules
 >json
 
 You can get them using Pip
->Install Pip using command "python get-pip"
+>Install Pip using command "python get-pip.py"
 
 Then to install module use command
 >pip install requests
+
+When propmpted for a wikipedia article url 
+They should be of the form
+>https://en.wikipedia.org/wiki/India
+
+This searches only the en database of wiki for backlinks
