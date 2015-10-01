@@ -201,7 +201,7 @@ else:
 	Chkurl = PopUrl[start:]
 	soup = BeautifulSoup(data)
 	for a in soup.findAll('a', href=Chkurl):
-		print(a)
+		print(a.string)
 
 
 	print 'The most popular link in %s' %PopUrl
