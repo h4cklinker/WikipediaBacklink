@@ -77,7 +77,6 @@ def GetBacklinksCont(url,continueSearchVariableBacklink,count,LinkNo):
 			# print(url1 + continueSearchVariableBacklink)
 			GetBacklinksCont(url1,continueSearchVariableBacklink,count,LinkNo)
 
-
 def WikiUrlChecker(urlInput):
 	matchObj = re.match( r'https:\/\/en\.wikipedia\.org\/wiki\/.+',urlInput)
 	start1 = 0
